@@ -1,0 +1,17 @@
+Package: osrmrcpp
+Type: Package
+Title: OSRM C++ API in R
+Version: 0.1
+Date: 2015-11-18
+Author: Richard Ellison
+Maintainer: Richard Ellison <richardbe@gmail.com>
+Description: An implementation of the OSRM C++ API in R using Rcpp and RcppParallel. Testing code for possible later inclusion in stplanr.
+License: MIT
+LazyData: TRUE
+Imports:
+    Rcpp (>= 0.12.1),
+    RcppParallel
+LinkingTo:
+    Rcpp,
+    RcppParallel
+SystemRequirements: GNU make

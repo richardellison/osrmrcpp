@@ -1,0 +1,3 @@
+CXX_STD = CXX11
+PKG_LIBS = -lOSRM -lboost_system -lboost_filesystem -lboost_thread -lboost_program_options
+PKG_LIBS += $(shell ${R_HOME}/bin/Rscript -e "RcppParallel::RcppParallelLibs()")
